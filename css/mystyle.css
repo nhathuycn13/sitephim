@@ -1,0 +1,85 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	color: #555;
+	font-size: 13px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('http://2.bp.blogspot.com/-3eaA8GJhAf8/Uo3xG7A76RI/AAAAAAAAAwU/nSHUM1QTgPI/s1600/bb.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.wrapper{
+	width: 80%;
+	max-width: 830px;
+	margin: 110px auto 10px;
+	background-color: #fff;
+}
+
+img{
+	width: 100%;
+}
+ul{list-style-type: none;}
+h1 a, .navbar a{
+	color: #fff;
+}
+h1 a:hover, .navbar a:hover{color: #fff;}
+a:hover{
+	text-decoration: none;
+}
+/*setting màu*/
+.yellow{background-color: #D2A800;}
+.xanhnhat{background-color: #16A086;}
+.xanhnuocbien{background-color: #2A80B9;}
+.do{background-color: #C1392B;}
+
+.right-header{height: 190px;}
+.inner-nav, .navbar{height: 48%;}
+.inner-nav{margin: 0;}
+.border-strip{
+	border: 3px double white;
+}
+.inner-nav h1{
+	color: white;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+.name{
+	background-color: #3074A3;
+}
+.job{
+	background-color: #266996;
+}
+ul.navbar{
+
+}
+ul.navbar li{
+	display: inline-block;text-align: center;
+	font-size: 24px;
+	height: 100%;
+	color: #fff;
+	padding: 25px;
+}
+ul.navbar a:hover li{
+	background-color: #EF8278;
+}
+.content{
+	margin-top: 10px;
+	min-height: 500px;
+}
+.feature-tab{
+	padding: 10px 40px;
+}
+
+footer{
+	min-height: 300px;
+	background-color: #EEEEEE;
+}
